@@ -16,8 +16,8 @@ namespace WEBAPIT1.Migrations
                 {
                     id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    descricao = table.Column<string>(type: "nvarchar(35)", maxLength: 35, nullable: true),
-                    curso = table.Column<string>(type: "nvarchar(25)", maxLength: 25, nullable: true),
+                    nome = table.Column<string>(type: "nvarchar(35)", maxLength: 35, nullable: true),
+                    disciplina = table.Column<string>(type: "nvarchar(25)", maxLength: 25, nullable: true),
                     nota1 = table.Column<float>(type: "real", nullable: false),
                     nota2 = table.Column<float>(type: "real", nullable: false)
                 },

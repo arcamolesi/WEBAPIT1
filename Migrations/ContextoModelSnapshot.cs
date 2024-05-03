@@ -29,11 +29,11 @@ namespace WEBAPIT1.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
 
-                    b.Property<string>("curso")
+                    b.Property<string>("disciplina")
                         .HasMaxLength(25)
                         .HasColumnType("nvarchar(25)");
 
-                    b.Property<string>("descricao")
+                    b.Property<string>("nome")
                         .HasMaxLength(35)
                         .HasColumnType("nvarchar(35)");
 

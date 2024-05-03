@@ -10,10 +10,10 @@ namespace WEBAPIT1
         public int id { get; set; }
 
         [StringLength(35)]
-        public string descricao { get; set; }
+        public string nome { get; set; }
 
         [StringLength (25)]
-        public string curso { get; set; }
+        public string disciplina { get; set; }
 
         public float nota1 { get; set; }
         public float nota2 { get; set; }
